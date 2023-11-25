@@ -1,0 +1,131 @@
+body::-webkit-scrollbar {
+        /* display: none;
+        -ms-overflow-style: none;
+        scrollbar-width: none;  */
+}
+/* FOR CONTAINER */
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container:before{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container_fluid{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* set bg image */
+.set_bg {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  ancor tags */
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+i{
+    font-size: 16px;
+}
+/* CSS FOR ROW */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; 
+}
+/* CSS FOR COLUMN */
+.col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col_lg{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* lIST */
+/* text align center */
+.text_center{
+    text-align: center!important;
+}
+p{
+    font-size: 16px;
+    font-family: "Muli", sans-serif;
+    color: #636363;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+li{
+    list-style-type: none;
+}
+.b_b{
+    /* border: 1px solid black; */
+}
+.b_w{
+    /* border: 1px solid white; */
+}
+/* hamburger */
+.fa-bars{
+    font-family: 'themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.primary_btn{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 30px;
+    color: #ffffff;
+    background: #e7ab3c;
+    text-transform: uppercase;
+
+}
+
+/* header tags */
+h1, h2, h3, h4, h5, h6
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6{
+
+}
+h6{
+    font-size: 16px;
+}
+h5{
+    font-size: 20px;
+}
+h4{
+    font-size: 24px;
+}
+h1, h2{
+
+}
+h1{
+
+}
+img{
+    max-width: 100%;
+}

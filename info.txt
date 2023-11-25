@@ -1,0 +1,55 @@
+{
+       "products":[
+        {
+        "brand": "Apple",
+        "category":"smartphone",
+        "description":"An apple which is nothing like apple",
+        "descountPercentage":12.96,
+        "id":1,
+        "images":[],
+        "price":594,
+        "rating":4.69,
+        "stock": 94,
+        "thumbnail" : "",
+        "title":"iphone 9"
+    },
+    {
+        "brand":"Apple",
+        "category":"smartphone",
+        "description":"An apple which is nothing like apple",
+        "descountPercentage":12.96,
+        "id":2,
+        "images":[],
+        "price":594,
+        "rating":4.69,
+        "stock": 94,
+        "thumbnail" : "",
+        "title":"iphone 9"
+    },{
+        "brand":"Apple",
+        "category":"smartphone",
+        "description":"An apple which is nothing like apple",
+        "descountPercentage":12.96,
+        "id":3,
+        "images":[],
+        "price":498,
+        "rating":4.56,
+        "stock": 80,
+        "thumbnail" : "",
+        "title":"iphone 12"
+    },{
+        "brand":"Samsung",
+        "category":"smartphone",
+        "description":"New generation of apple",
+        "descountPercentage":10.69,
+        "id":4,
+        "images":[],
+        "price":350,
+        "rating":4.87,
+        "stock": 92,
+        "thumbnail" : "",
+        "title":"samsung s22 ultra"
+    }],
+    "skip": 0,
+    "total":100
+}

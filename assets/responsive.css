@@ -1,0 +1,337 @@
+/* 
+    1200PX 
+*/
+@media screen and(width<1500px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+/* 
+    1200PX 
+*/
+@media screen and (width>1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+/* 
+    992px 
+*/
+@media (width<1200px) {
+    .container {
+        max-width: 960px;
+    }
+    /* product carousel */
+    .product_item{
+        flex-shrink: 0;
+        flex-grow: 0;
+        flex-basis: 50%;
+    }
+}
+
+@media (width<992px) {
+    .container {
+        max-width: 720px;
+    }
+    .nav_items .nav_dept .down-arrow{
+        margin-left: ;
+    }
+
+    .nav_items {
+        /* background-color: transparent; */
+    }
+
+    /* Banner section */
+    .banner_section .single_banner {
+        margin-bottom: 30px;
+    }
+    /* PRODUCT BTN */
+    .product_btn{
+        display: none;
+    }
+
+}
+
+/* 
+    768px 
+*/
+@media (width<768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* ************************************************* */
+/* under wdth 992px to 1199px  */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .inner_header .advance_search .category_btn {
+        max-width: 36%;
+    }
+
+    .inner_header .advance_search .input_group {
+        max-width: 64%;
+    }
+
+    /* nav-menu */
+    .nav_items .nav_menu li a {
+        padding: 16px 26px 15px;
+    }
+    /*  */
+    /* ********************** */
+    /* contdown */
+    .countdown_timer .countdown_item{
+        margin-right: 26px;
+    }
+}
+
+/* ************************************************* */
+/* under wdth 768px to 991px  */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .inner_header .advance_search .category_btn {
+        max-width: 40%;
+        padding-right: 25px;
+    }
+
+    .inner_header .advance_search .input_group {
+        max-width: 60%;
+    }
+
+    .inner_header .nav-right li {
+        margin-left: 8px;
+    }
+    
+    .nav_items .nav_menu li a {
+        padding: 16px 10px 15px;
+    }
+}
+
+/* ************************************************* */
+/* under wdth 1200px to 1920px  */
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+
+    /* nav-menu */
+    .nav_items .nav_menu li a {
+        padding: 16px 45px 15px;
+    }
+}
+
+
+/* under wdth 768px  */
+
+@media (width<767px) {
+
+    /* top header */
+    .header_top .header_left {
+        display: none;
+    }
+    .header_top .header_right .login_panel{
+        padding-top: 9px;
+        padding-bottom: 7px;
+    }
+
+    .header_top .header_right .header_social {
+        display: none;
+    }
+
+    @media (width<576px){
+        .product_item{
+            flex-grow: 0;
+            flex-shrink: 0;
+            flex-basis: 100%;
+        }
+
+    }
+
+
+/* ********************************************************/
+/* Header Container */
+    .container .inner_header{
+        padding: 0;
+    }
+
+    .inner_header .header_col_1 .logo {
+        text-align: center;
+    }
+
+    .inner_header .advance_search .category_btn {
+        display: none;
+    }
+
+    .inner_header .advance_search .input_group {
+        max-width: 100%;
+    }
+
+    .inner_header .nav-right li {
+        float: left;
+    }
+
+    /*  header container */
+    .inner_header .nav-right {
+        text-align: left;
+    }
+    .nav_items{
+        background: transparent;
+    }
+
+    /* nav-menu */
+    .nav_items .nav_dept {
+        display: none;
+    }
+
+    .nav_items .nav_menu {
+        display: none;
+    }
+
+    /*  INSTA PHOTO */
+    .instagram_photo .insta_item {
+        width: 50%;
+        height: 300px;
+    }
+
+    /******************************************* */
+    /* Single Hero */
+    .single_hero{
+        padding: 110px 25px 80px;
+        background: left center;
+    }
+
+    .hero_section{
+        height: 450px;
+    }
+    .hero_section .single_hero h1{
+        font-size: 40px;
+    }
+}
+
+/* under wdth 479px  */
+@media (width<479px) {
+    .countdown_timer .countdown_item {
+        margin-right: 2px;
+        padding: 10px 6px;
+    }
+
+    .instagram_photo .insta_item {
+        width: 100%;
+    }
+}
+
+
+/* ************************************************************ */
+/* 768px */
+@media(width>767px) {
+    .header_col_1 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+
+    .header_col_2 {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .header_col_3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    /*  blog section */
+    .blog_section .col{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(width>991px) {
+    .header_col_1 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+
+    .header_col_2 {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .header_col_3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    /* hero section */
+    .hero_section .col {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+
+    }
+
+    /* banner section */
+    .banner_section .row .col {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    /* Women product */
+    .women_product {
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+
+    .women_product .col-wp1 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .women_product .col-wp2 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        margin-left: 8.333333%;
+    }
+
+    /* deal section */
+    .deal_of_the_week {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .deal_of_the_week .col {
+        max-width: 50%;
+    }
+    
+    /* blog section */
+    .blog_section .col{
+        flex: 0 0 33.3333333%;
+        max-width: 33.333333%;
+    }
+    /* *************** */
+    /* Footer */
+    .f_col1{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .f_col2{
+        flex: 0 0 16.666667%;
+        max-width: 16%;
+        margin-left: 8.33333%;
+    }
+    .f_col3{
+        flex: 0 0 16.666667%;
+        max-width: 16%;
+    }
+    .f_col4{
+        flex: 0 0 33.333333%;
+        max-width: 33%;
+    }
+     
+}
+
+
+/* 991px */
+
+
+
+
+/* 1200px  */

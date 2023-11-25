@@ -1,0 +1,85 @@
+{
+       "products":[
+        {
+        "id":1,
+        "category":"sweater",
+        "priceReal":14.00,
+        "price":35.00,
+        "images":"https://preview.colorlib.com/theme/fashi/img/products/women-1.jpg.webp",
+        "title":"Pure Pineapple",
+        "brand": "",
+        "description":"",
+        "descountPercentage":12.96,
+        "rating":4.69,
+        "stock": 94,
+        "thumbnail" : ""
+    },
+    {
+        "id":2,
+        "category":"sweater",
+        "priceReal":13.00,
+        "price":35.00,
+        "images":"https://preview.colorlib.com/theme/fashi/img/products/women-2.jpg.webp",
+        "title":"guangzhou sweater",
+        "brand": "",
+        "description":"",
+        "descountPercentage":12.96,
+        "rating":4.69,
+        "stock": 94,
+        "thumbnail" : ""
+    },{
+        "id":3,
+        "category":"sweater",
+        "priceReal":34.00,
+        "price":35.00,
+        "images":"https://preview.colorlib.com/theme/fashi/img/products/women-3.jpg.webp",
+        "title":"Converse handbag",
+        "brand": "",
+        "description":"",
+        "descountPercentage":12.96,
+        "rating":4.69,
+        "stock": 94,
+        "thumbnail" : ""
+    },{
+        "id":4,
+        "category":"sweater",
+        "priceReal":34.00,
+        "price":35.00,
+        "images":"https://preview.colorlib.com/theme/fashi/img/products/women-1.jpg.webp",
+        "title":"pure Pineapple",
+        "brand": "",
+        "description":"",
+        "descountPercentage":12.96,
+        "rating":4.69,
+        "stock": 94,
+        "thumbnail" : ""
+    },{
+        "id":3,
+        "category":"sweater",
+        "priceReal":34.00,
+        "price":35.00,
+        "images":"https://preview.colorlib.com/theme/fashi/img/products/women-3.jpg.webp",
+        "title":"Converse handbag",
+        "brand": "",
+        "description":"",
+        "descountPercentage":12.96,
+        "rating":4.69,
+        "stock": 94,
+        "thumbnail" : ""
+    },{
+        "id":3,
+        "category":"sweater",
+        "priceReal":34.00,
+        "price":35.00,
+        "images":"https://preview.colorlib.com/theme/fashi/img/products/women-3.jpg.webp",
+        "title":"Converse handbag",
+        "brand": "",
+        "description":"",
+        "descountPercentage":12.96,
+        "rating":4.69,
+        "stock": 94,
+        "thumbnail" : ""
+    }],
+    "skip": 0,
+    "total":100
+}
